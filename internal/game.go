@@ -1,7 +1,7 @@
-// This is a data model for a game
+// Package game is a data model for a game
 package game
 
-type game struct {
+type Game struct {
 	title                string
 	completed            bool
 	description          string
